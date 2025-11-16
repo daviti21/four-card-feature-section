@@ -1,0 +1,326 @@
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(250,250,250);
+        font-family: 'Poppins', sans-serif;
+    }
+    .container{
+        width: 350px;
+       margin: 3rem;
+       
+    }
+    
+    .title1{
+        color: rgb(98,97,106);
+        font-size: 1.65rem;
+        text-align: center;
+     
+       max-width: 24ch;
+       line-height: 30px;
+       margin: 0 auto;
+        
+       font-weight: 300;
+    }
+    .title2{
+        color:rgb(80,79,100);
+        
+       
+        font-weight: 400;
+         
+    }
+    .title-text{
+        max-width: 34ch;
+        text-align: center;
+        margin: 0 auto;
+        color: rgb(133,134,139);
+        margin-top: 1.5rem;
+        line-height: 20px;
+        font-size: 0.9rem;
+    }
+    .inf1, .inf2, .inf3, .inf4{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 200px;
+        background-color: rgb(250,250,250);
+        margin-bottom: 2rem;
+        border-radius: 5px;
+        box-shadow: 3px 10px 6px rgb(218,223,236),
+                    -3px 0 6px rgb(218,223,236);
+         padding-bottom: 2rem;
+          padding-left: 0.5rem;
+          }
+    
+    .inf1{
+        border-top: 5px solid rgb(77,207,206);
+           margin-top:4rem;
+    }
+    .inf2{
+        border-top: 5px solid rgb(228,87,87); 
+        
+    }
+    .inf3{
+    border-top: 5px solid rgb(241,171,88);
+    
+    }
+    .inf4{
+     border-top: 5px solid rgb(91,156,229);
+    }
+    .text{
+        width: 100%;
+      padding-top: 0.5rem;
+    }
+    .inf-text{  
+     max-width: 33ch;
+     margin-top: 0.5rem;
+     color: rgb(134,135,137);
+     font-size: 0.9rem;
+}
+.inf-title{
+    font-size: 1.2rem;
+    color: rgb(95,94,107);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.img{
+    width: 90%;
+    text-align: end;
+    
+}
+.inf{
+    width: 100%;
+}
+ 
+ 
+}
+@media screen and (max-width: 419px){
+    .container{
+    width: 250px;
+  
+    }
+    .title1{
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .title-text{
+        font-size: 0.75rem;
+        line-height: 18px;
+    }
+     .inf1, .inf2, .inf3, .inf4{
+        height: 180px;
+     }
+     .inf-text{
+     font-size: 0.75rem;
+     }
+     svg{
+        transform: scale(0.8);
+     }
+     .text{
+        padding-left: 0.7rem;
+     }
+     .inf-title{
+        font-size:0.9rem;
+     }
+}
+
+@media screen and (max-width: 330px){
+ .container{
+    width: 200px;
+  
+    }
+    .title1{
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+    .title-text{
+        font-size: 0.65rem;
+        line-height: 18px;
+    }
+     .inf1, .inf2, .inf3, .inf4{
+        height: 180px;
+        padding-bottom: 1.2rem;
+        padding-left: -0.3rem;
+     }
+     .inf-text{
+     font-size: 0.65rem;
+     }
+     svg{
+        transform: scale(0.6);
+     }
+     .text{
+        padding-left: 0.7rem;
+     }
+     .inf-title{
+        font-size:0.8rem;
+     }
+}
+ 
+ @media screen and (min-width: 769px) {
+    body{
+        width: 100%;
+        min-height: 100vh;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(250,250,250);
+        font-family: 'Poppins', sans-serif;
+    }
+    .container{
+        width: 100%;
+       margin: 6rem auto;
+       
+    }
+    .title1{
+        color: rgb(98,97,106);
+        font-size: 2.2rem;
+        text-align: center;
+     
+       max-width: 24ch;
+       line-height: 40px;
+       margin: 0 auto;
+        
+       font-weight: 300;
+    }
+    .title2{
+        color:rgb(80,79,100);
+        
+       
+        font-weight: 400;
+         
+    }
+    .title-text{
+        max-width: 55ch;
+        text-align: center;
+        margin: 0 auto;
+        color: rgb(133,134,139);
+        margin-top: 1.5rem;
+        line-height: 20px;
+        font-size: 0.9rem;
+
+    }
+    .inf1, .inf2, .inf3, .inf4{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+         
+        height: 180px;
+        background-color: rgb(250,250,250);
+     
+        border-radius: 5px;
+        box-shadow: 3px 10px 6px rgb(218,223,236),
+                    -3px 0 6px rgb(218,223,236);
+         padding-bottom: 2rem;
+          }
+    
+    .inf1{
+        border-top: 5px solid rgb(77,207,206);
+  
+         
+    }
+    .inf2{
+        border-top: 5px solid rgb(228,87,87); 
+       width:100%;
+    }
+    .inf3{
+    border-top: 5px solid rgb(241,171,88);
+  width:100%;
+    margin-top: 2rem;
+    }
+    .inf4{
+     border-top: 5px solid rgb(91,156,229);
+       
+    }
+    .text{
+        width: 100%;
+       padding-left: 2rem;
+       padding-top: 0.5rem;
+    }
+    .inf-text{  
+     max-width: 33ch;
+     margin-top: 0.5rem;
+     color: rgb(134,135,137);
+     font-size: 0.75rem;
+}
+.inf-title{
+    font-size: 1rem;
+    color: rgb(95,94,107);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.img{
+    width: 90%;
+    text-align: end;
+    
+}
+ .inf{
+   width: 100%;
+ 
+    margin: 2rem auto 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+ }
+ 
+ .inf1, .inf4,.infs{
+ width: 340px;
+ margin: 1rem;
+ }
+}
+
+ 
+  @media screen and (min-width: 769px) and (max-width:900px){
+    svg{
+        transform:scale(0.65);
+    }
+    .inf-text{
+        font-size: 0.65rem;
+    }
+     .inf1, .inf2, .inf3, .inf4{
+
+        padding-bottom: 1rem;
+     }
+
+ .title1{
+    font-size:1.5rem;
+    line-height: 25px;
+ }
+ .title-text{
+    font-size:0.8rem;
+ }
+  .text{
+        width: 100%;
+       padding-left: 0.5rem;
+       padding-top: 0.5rem;
+  }
+}
+   @media screen and (min-width: 900px) and (max-width:1000px){
+     svg{
+        transform:scale(0.8);
+    }
+    .inf-text{
+        font-size: 0.75rem;
+    }
+     .inf1, .inf2, .inf3, .inf4{
+
+        padding-bottom: 1.5rem;
+     }
+
+ .title1{
+    font-size:1.9rem;
+    line-height: 32px;
+ }
+ .title-text{
+    font-size:0.8rem;
+ }
+  .text{
+      
+       padding-left: 1rem;
+        
+   }
